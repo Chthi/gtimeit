@@ -28,11 +28,10 @@
 
 import sys
 import os
-import random
 import itertools
 import operator
 from time import time
-from random import randint
+
 import numpy as np
 # import pandas as pd
 

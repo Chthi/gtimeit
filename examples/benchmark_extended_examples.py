@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from benchmark import Benchmark
+from gtimeit import Benchmark
 
 import re
 import os

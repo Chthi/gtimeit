@@ -1,7 +1,18 @@
-#  Bench
+# gtimeit
 Timer, benchmark and ressource usage tracker.
 A tool for python functions. Time and compare your functions inside or outside a program.
 
+## Installation
+The easiest way is to use pip :
+```
+pip install gtimeit
+```
+
+And there you go ! You can now import the functions as easily as :
+```
+from gtimeit import Benchmark
+from gtimeit import execTimeList, display_performances
+```
 
 ## Benchmark
 
@@ -67,6 +78,8 @@ Use ```display_performances()``` to display the results.
 
 ### Examples
 ```
+from gtimeit import execTimeList, display_performances
+
 @execTimeList
 def additions():
     i = 0
@@ -104,6 +117,8 @@ display_performances()
 ```
 
 _______________________________________________________
+
 Author : Thibault Charmet
+
 Creation date : 09/2018
 

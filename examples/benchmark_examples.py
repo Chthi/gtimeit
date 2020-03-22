@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from benchmark import Benchmark
-
 import re
 import os
+
+from gtimeit import Benchmark
 
 # a bunch of function to benchmark
 
