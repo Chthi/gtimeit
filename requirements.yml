@@ -1,0 +1,28 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - wheel
+  - numpy
+  - matplotlib
+  - pytest
+  - bleach
+  - certifi
+  - chardet
+  - cycler
+  - docutils
+  - idna
+  - kiwisolver
+  - pkginfo
+  - Pygments
+  - pyparsing
+  - python-dateutil
+  - readme_renderer # readme-renderer
+  - requests
+  - requests-toolbelt
+  - six
+  - tqdm
+  - twine
+  - urllib3
+  - webencodings

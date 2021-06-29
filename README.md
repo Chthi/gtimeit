@@ -3,10 +3,20 @@ Timer, benchmark and ressource usage tracker.
 A tool for python functions. Time and compare your functions inside or outside a program.
 
 ## Installation
-The easiest way is to use pip :
+
+### Installing as library
+The easiest way is to use pip.
 ```
 pip install gtimeit
 ```
+### Installing for developpement
+Or you can install from Github.
+```
+git clone https://github.com/Chthi/gtimeit
+cd gtimeit
+pip install --editable ./
+```
+
 
 And there you go ! You can now import the functions as easily as :
 ```
