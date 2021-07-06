@@ -51,7 +51,7 @@ setup(
     },
     python_requires='>=3.6',
     install_requires=requirements,
-    extras_require=extras_requirements,
+    # extras_require=extras_requirements,
     include_package_data=True,
     license='MIT',
     classifiers=[
