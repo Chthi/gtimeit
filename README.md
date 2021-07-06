@@ -1,5 +1,5 @@
 # gtimeit
-Timer, benchmark and ressource usage tracker.
+Graphical code timer, and function time usage tracker.
 A tool for python functions. Time and compare your functions inside or outside a program.
 
 ## Installation
@@ -30,11 +30,12 @@ Allows to run multiple python functions a certain amount of times and to compare
 Similar to [timeit](https://docs.python.org/2/library/timeit.html) Display curves of all the execution times.
 Prototype : benchmarking for complexity tests up to one variable parameter. The variable take all the values of a given range and the benchmarck keeps track of the executions times.
 
-![benchmark_graph](images/benchmark_graph.png)
+<img src="images/benchmark_graph.png" width="" height=""/>
 
-![benchmark_legend](images/benchmark_legend.png)
+<img src="images/benchmark_legend.png" width="" height=""/>
 
-![benchmark_terminal](images/benchmark_terminal.png)
+<img src="images/benchmark_terminal.png" width="" height=""/>
+
 
 #### Usage :
 ```
@@ -75,11 +76,11 @@ bm = Benchmark([plusEgale, plusPuisEgale], 200, multiplicator=100000)
 ## Tracker
 Allow to keep track of the execution time of some functions in a program. Useful to know which part of your program take the more time to execute.
 
-![tracker_pie](images/tracker_pie.png)
+<img src="images/tracker_pie.png" width="" height=""/>
 
-![tracker_history](images/tracker_history.png)
+<img src="images/tracker_history.png" width="" height=""/>
 
-![tracker_terminal](images/tracker_terminal.png)
+<img src="images/tracker_terminal.png" width="" height=""/>
 
 #### Usage
 Use the decorator ```@execTimeList``` before every function you want to keep track of.
