@@ -104,8 +104,7 @@ class Benchmark():
             **keyargs : named arguments of the function
         """
 
-        # IDEA : have a way to rename the function
-        name = method.__name__
+        name = str(method)
         self.all_callable[name] = (method, args, keyargs)
         self.totalExecTime[name] = 0
         self.listExecTime[name] = []

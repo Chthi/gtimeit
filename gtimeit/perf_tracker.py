@@ -159,7 +159,7 @@ def remove_fictive_time(name):
 
 def execTimeList(method):
     def timed(*args, **keyargs):
-        name = method.__name__
+        name = str(method)
         PERF_TRACKER.try_to_add(name)
         PERF_TRACKER.called[name] += 1
         start = time()

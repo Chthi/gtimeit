@@ -127,6 +127,11 @@ fct1()
 display_performances()
 ```
 
+### Limitations
+For the current version : 
+- It is not possible to use `Benchmark` and `execTimeList` decorator at the same time on one object as the decorator replace the function name by `timed`.
+- It should not work for parallel computing.
+
 _______________________________________________________
 
 Author : Thibault Charmet
